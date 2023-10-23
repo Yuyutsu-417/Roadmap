@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+}
+
+.bg-green {
+    background-color: #9ACC44;
+    /* z-index: -2; */
+}
+
+.main-head {
+    color: #FFF;
+    text-shadow: 1px 4px 0px #5BA72B;
+    font-family: 'Cherry Bomb One', sans-serif;
+    font-size: var(--fs-l2);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.164%;
+}
+
+.main-para {
+    color: #FFF;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: var(--fs-s2);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 655px;
+}
+
+.row-box {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.10);
+    padding: 20px;
+    transition: all 300ms linear;
+}
+
+.box-number {
+    color: #FFF;
+    font-family: 'Cherry Bomb One', sans-serif;
+    font-size: var(--fs-l3);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3;
+}
+
+.box-head {
+    color: #FFF;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: var(--fs-m);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.svg {
+    right: 8%;
+    top: 18%;
+}
+
+.mt-92 {
+    margin-top: 92px;
+}
+
+.box-l-text {
+    color: #FFF;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: var(--fs-s2);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cloud-right {
+    right: -8%;
+}
+
+.cloud-left {
+    left: -14%;
+}
+
+.rock {
+    top: 94%;
+    left: -11%;
+}
+
+.tree {
+    left: -2%;
+    top: 63%;
+}
+
+.row-box:hover {
+    background-color: #5BA72B;
+    cursor: pointer;
+}
+
+.row-box svg path {
+    transition: all 300ms linear;
+}
+
+.row-box:hover svg path {
+    opacity: 1;
+}
+
+.pg2-box {
+    display: inline-flex;
+    padding: 75px 65px;
+    align-items: center;
+    gap: 95px;
+    border-radius: 19px;
+    border: 7px solid #FFF;
+    background: #5BA72B;
+}
+
+.mt--3 {
+    margin-top: -16px;
+}
+
+.pg2-box-main-head {
+    color: #FFF;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: var(--fs-l1);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pg2-box-head {
+    color: #FFF;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: var(--fs-s1);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pg2-box-para {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: var(--fs-s3);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.pg2-bold-para {
+    color: #FFF;
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: var(--fs-s3);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.pg2-box-text{
+    max-width: 655px;
+}
+
+.pb-200{
+    padding-bottom: 200px;
+}
+
+.pg2-pb-200{
+    padding-bottom: 200px;
+}
+
+.pg2-tree{
+    top: 68.3%;
+    left: 2%;
+    z-index: 1;
+}
+
+.pg2-rock {
+    top: 94%;
+    left: -7%;
+    z-index: 1;
+}
+
+.pg2-bottom-cloud{
+    z-index: 0;
+    top: 93%;
+    left: 0%;
+}
